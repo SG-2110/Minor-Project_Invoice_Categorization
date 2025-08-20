@@ -1,0 +1,62 @@
+{
+  "name": "Minor Project",
+  "projectId": "07d6d7c8-2f71-48c2-b312-7306897de5f5",
+  "description": "\" A business needs to categorize its invoices based on their due date and amount for better payment tracking. Build an UiPath automation that will read invoice details from a folder containing text-based PDFs. From each invoice, it will extract the Invoice Number, Due Date, and Amount. Using today’s date as a reference, the invoices will be categorized as “Overdue,” “Due Soon,” or “Paid.” The final classifications will be saved to an Excel file for record-keeping and further action.\"",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[3.2.1]",
+    "UiPath.PDF.Activities": "[3.23.1-preview]",
+    "UiPath.System.Activities": "[25.6.1]",
+    "UiPath.Testing.Activities": "[25.4.1]",
+    "UiPath.UIAutomation.Activities": "[25.10.12]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.172.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "3aea9b56-8bac-414d-8844-7cd19fc4a86e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
